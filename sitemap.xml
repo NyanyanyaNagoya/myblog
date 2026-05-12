@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://myblog-sooty-five.vercel.app/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://albert-myblog.vercel.app/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://myblog-sooty-five.vercel.app/</loc>
+<loc>https://albert-myblog.vercel.app/</loc>
 </url>
 <url>
-<loc>https://myblog-sooty-five.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html</loc>
+<loc>https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html</loc>
 <lastmod>2026-05-12T11:04:59+09:00</lastmod>
 </url>
 </urlset>

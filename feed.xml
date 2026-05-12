@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Albert Pai部落格</title>
-    <link href="https://myblog-sooty-five.vercel.app/feed.xml" rel="self" />
-    <link href="https://myblog-sooty-five.vercel.app" />
+    <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
+    <link href="https://albert-myblog.vercel.app" />
     <updated>2026-05-12T11:04:59+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
-    <id>https://myblog-sooty-five.vercel.app</id>
+    <id>https://albert-myblog.vercel.app</id>
 
     <entry>
         <title>這是第一篇網誌</title>
         <author>
             <name>Albert Pai</name>
         </author>
-        <link href="https://myblog-sooty-five.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html"/>
-        <id>https://myblog-sooty-five.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html</id>
+        <link href="https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html"/>
+        <id>https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html</id>
 
         <updated>2026-05-12T11:04:59+09:00</updated>
             <summary type="html">

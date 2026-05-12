@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Albert Pai部落格",
     "description": "",
-    "home_page_url": "https://myblog-sooty-five.vercel.app",
-    "feed_url": "https://myblog-sooty-five.vercel.app/feed.json",
+    "home_page_url": "https://albert-myblog.vercel.app",
+    "feed_url": "https://albert-myblog.vercel.app/feed.json",
     "user_comment": "",
     "author": {
         "name": "Albert Pai"
     },
     "items": [
         {
-            "id": "https://myblog-sooty-five.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html",
-            "url": "https://myblog-sooty-five.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html",
+            "id": "https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html",
+            "url": "https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html",
             "title": "這是第一篇網誌",
             "summary": "Hello World!",
             "content_html": "<p>Hello World!</p>",
