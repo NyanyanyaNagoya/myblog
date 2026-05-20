@@ -3,12 +3,36 @@
     <title>Albert Pai部落格</title>
     <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
     <link href="https://albert-myblog.vercel.app" />
-    <updated>2026-05-12T11:04:59+09:00</updated>
+    <updated>2026-05-21T00:01:19+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
     <id>https://albert-myblog.vercel.app</id>
 
+    <entry>
+        <title>日本的文化衝擊</title>
+        <author>
+            <name>Albert Pai</name>
+        </author>
+        <link href="https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html"/>
+        <id>https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html</id>
+
+        <updated>2026-05-20T23:51:13+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>整理一下在日本校園和社會遇到的文化衝擊：</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>整理一下在日本校園和社會遇到的文化衝擊：</p>
+
+<p>一、學生無法自己在課後討論，準備報告。現在學生可能因為重視個人隱私，也可能對於表裏界線的重視，課後很少跟其他同學有密切聯繫，所以也不會留下個人聯絡方式給同學。如果老師指派報告，要求學生課後討論，上台報告。他們很可能無法做到。據說一、二十年前並非如此，這是近年來的趨勢。在台灣校園，年輕世代也有人際關係變得疏離的情形，最大的因素是SNS科技的發達。但是日本校園似乎是因為先選擇疏離了，然後拒絕在同學之間使用SNS。</p>
+<p>二、年輕人不懂得什麼是句子，什麼是段落。許多人的書寫文體，因為受到SNS影響甚鉅，不太使用句號。甚至有句號騷擾（マルハラ）這類說法，意思是收到別人有句號的答覆，不知道怎樣接下去。再加上許多雜誌、網路文章把文章輕量化，一個段落只有一句話，漸漸地人們無法分辨句子和段落的不同。大學生學習寫作文時，許多人都會有一句一行的習慣，不知道要把句子緊密連在一起，形成段落。</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>這是第一篇網誌</title>
         <author>
