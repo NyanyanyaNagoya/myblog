@@ -3,7 +3,7 @@
     <title>Albert Pai部落格</title>
     <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
     <link href="https://albert-myblog.vercel.app" />
-    <updated>2026-05-21T00:01:19+09:00</updated>
+    <updated>2026-05-23T14:17:22+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
@@ -16,6 +16,7 @@
         </author>
         <link href="https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html"/>
         <id>https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html</id>
+            <category term="日本校園"/>
 
         <updated>2026-05-20T23:51:13+09:00</updated>
             <summary type="html">
@@ -40,6 +41,7 @@
         </author>
         <link href="https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html"/>
         <id>https://albert-myblog.vercel.app/zhe-shi-di-yi-pian-wang-zhi.html</id>
+            <category term="生活紀錄"/>
 
         <updated>2026-05-12T11:04:59+09:00</updated>
             <summary type="html">
