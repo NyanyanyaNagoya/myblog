@@ -3,7 +3,7 @@
     <title>Albert Pai部落格</title>
     <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
     <link href="https://albert-myblog.vercel.app" />
-    <updated>2026-05-27T22:02:07+09:00</updated>
+    <updated>2026-05-27T22:04:26+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
@@ -16,6 +16,8 @@
         </author>
         <link href="https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html"/>
         <id>https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html</id>
+            <category term="日語學習"/>
+            <category term="日本校園"/>
 
         <updated>2026-05-27T22:01:33+09:00</updated>
             <summary type="html">
