@@ -3,12 +3,41 @@
     <title>Albert Pai部落格</title>
     <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
     <link href="https://albert-myblog.vercel.app" />
-    <updated>2026-05-24T12:09:14+09:00</updated>
+    <updated>2026-05-27T22:02:07+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
     <id>https://albert-myblog.vercel.app</id>
 
+    <entry>
+        <title>和製英語和英語</title>
+        <author>
+            <name>Albert Pai</name>
+        </author>
+        <link href="https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html"/>
+        <id>https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html</id>
+
+        <updated>2026-05-27T22:01:33+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>今天上課，更正學生的發音：</p>
+<p>One /wʌn/ 不是 /wɑŋ/</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>今天上課，更正學生的發音：</p>
+<p>One /wʌn/ 不是 /wɑŋ/</p>
+
+<p>Two /tu:/ 不是 /tsu:/</p>
+<p>Three /θri:/ 不是 /suri:/</p>
+<p>Four /fɔ:/ /fɔ:r/ 不是 /hɔ:(a)/</p>
+<p>Five /faɪv/ 不是 /huaɪbu/<br><br>和製英語和英語的距離究竟有多大呢？</p>
+<figure class="post__image"><img loading="lazy"  src="https://albert-myblog.vercel.app/media/posts/3/Classroom.jpg" alt="" width="426" height="320" sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-xs.jpg 300w ,https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-sm.jpg 480w ,https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-md.jpg 768w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>日本文化衝擊</title>
         <author>

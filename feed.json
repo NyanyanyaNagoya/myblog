@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html",
+            "url": "https://albert-myblog.vercel.app/he-zhi-ying-yu-he-ying-yu.html",
+            "title": "和製英語和英語",
+            "summary": "<p>今天上課，更正學生的發音：</p>\n<p>One /wʌn/ 不是 /wɑŋ/</p>\n",
+            "content_html": "<p>今天上課，更正學生的發音：</p>\n<p>One /wʌn/ 不是 /wɑŋ/</p>\n\n<p>Two /tu:/ 不是 /tsu:/</p>\n<p>Three /θri:/ 不是 /suri:/</p>\n<p>Four /fɔ:/ /fɔ:r/ 不是 /hɔ:(a)/</p>\n<p>Five /faɪv/ 不是 /huaɪbu/<br><br>和製英語和英語的距離究竟有多大呢？</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://albert-myblog.vercel.app/media/posts/3/Classroom.jpg\" alt=\"\" width=\"426\" height=\"320\" sizes=\"(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)\" srcset=\"https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-xs.jpg 300w ,https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-sm.jpg 480w ,https://albert-myblog.vercel.app/media/posts/3/responsive/Classroom-md.jpg 768w\"></figure>",
+            "author": {
+                "name": "Albert Pai"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-05-27T22:01:33+09:00",
+            "date_modified": "2026-05-27T22:02:07+09:00"
+        },
+        {
             "id": "https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html",
             "url": "https://albert-myblog.vercel.app/ri-ben-de-wen-hua-chong-ji.html",
             "title": "日本文化衝擊",
