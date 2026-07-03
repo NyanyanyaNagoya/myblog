@@ -3,14 +3,86 @@
     <title>Albert Pai部落格</title>
     <link href="https://albert-myblog.vercel.app/feed.xml" rel="self" />
     <link href="https://albert-myblog.vercel.app" />
-    <updated>2026-07-03T18:40:24+09:00</updated>
+    <updated>2026-07-03T19:41:30+09:00</updated>
     <author>
         <name>Albert Pai</name>
     </author>
     <id>https://albert-myblog.vercel.app</id>
 
     <entry>
-        <title>変な形の教室</title>
+        <title>PGV部落格工作流</title>
+        <author>
+            <name>Albert Pai</name>
+        </author>
+        <link href="https://albert-myblog.vercel.app/publiibu-luo-ge-gong-zuo-liu.html"/>
+        <id>https://albert-myblog.vercel.app/publiibu-luo-ge-gong-zuo-liu.html</id>
+            <category term="技術探索"/>
+
+        <updated>2026-07-03T19:05:11+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>簡單說明一下現在使用的工作流，包含三個階段：Publii ➔ GitHub ➔ Vercel。</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>簡單說明一下現在使用的工作流，包含三個階段：Publii ➔ GitHub ➔ Vercel。</p>
+
+<h3>概念說明</h3>
+<p>這個三階段工作流的核心邏輯是將「內容創作」、「檔案儲存」、「網站發布」三個環節完美分離，各自分工：</p>
+<ul>
+<li>
+<p data-path-to-node="4,0,0"><strong data-path-to-node="4,0,0" data-index-in-node="0">Publii是內容創作平台。</strong>Publii是開源的桌面端網站生成器，介面類似WordPress。可在本機端寫文章、套用主題、調整版面，過程完全視覺化，通常不需要程式碼，當然如果會寫CSS，可以把網站改得更好看一點。完成後，Publii 會將內容打包成體積小、無資料庫的靜態檔案。</p>
+</li>
+<li>
+<p data-path-to-node="4,1,0"><strong data-path-to-node="4,1,0" data-index-in-node="0">GitHub扮演雲端儲存與中繼站的角色。</strong>GitHub 是程式碼儲存平台，Publii 會將打包好的靜態網站檔案，自動同步推送到 GitHub 上的儲存庫（Repository）中妥善保存，這也等於一種雲端備份。Github的專長是儲存資料，但是它不擅長快速發布網頁，所以這項工作改由Vercel擔任。</p>
+</li>
+<li>
+<p data-path-to-node="4,2,0"><strong data-path-to-node="4,2,0" data-index-in-node="0">Vercel</strong><strong data-path-to-node="4,2,0" data-index-in-node="0">負責發布工作。</strong>Vercel是為靜態網站設計的頂級雲端部署平台。把Vercel 設定與GitHub 連動，只要偵測到 GitHub 上的檔案有更新，就會在幾秒鐘內自動將最新的網站內容發布到全球邊緣網路，讓讀者能極速造訪。</p>
+</li>
+</ul>
+<h3 data-path-to-node="5">操作說明</h3>
+<p data-path-to-node="6">初次建立網站時需要稍微設定，只要設定好，後續發布文章可以一鍵完成。</p>
+<p data-path-to-node="7"><strong data-path-to-node="7" data-index-in-node="0">Step 1 - 設定Github:</strong>註冊並登入 GitHub，建立一個新的空白Repository。前往 GitHub 的開發者設定（Developer Settings），生成一組Personal Access Token (classic)，勾選 <code data-path-to-node="7" data-index-in-node="141">repo</code> 的完整權限，將密碼記下。</p>
+<p data-path-to-node="8"><strong data-path-to-node="8" data-index-in-node="0">Step 2 - 設定 Publii：</strong> 到 Publii 官網下載並安裝軟體。開啟軟體，建立新網站，寫一篇測試用文章。接著進入左側選單的Server設定：</p>
+<ol start="1" data-path-to-node="9">
+<li>
+<p data-path-to-node="9,0,0">伺服器類型（Server type）選擇GitHub Pages。</p>
+</li>
+<li>
+<p data-path-to-node="9,1,0">填入 GitHub Repository名稱以及分支（通常為 <code data-path-to-node="9,1,0" data-index-in-node="35">main</code> 或 <code data-path-to-node="9,1,0" data-index-in-node="42">master</code>）。</p>
+</li>
+<li>
+<p data-path-to-node="9,2,0">在 Token 欄位貼上剛剛生成的 Personal Access Token。</p>
+</li>
+<li>
+<p data-path-to-node="9,3,0">點選Save &amp; Test Connection，確認連線成功後，按下左下角的Sync your website，將檔案推送到 GitHub。</p>
+</li>
+</ol>
+<p data-path-to-node="10"><strong data-path-to-node="10" data-index-in-node="0">Step 3 - 串接Vercel：</strong> 註冊 Vercel，可直接選擇使用 GitHub 帳號授權登入。</p>
+<ol start="1" data-path-to-node="11">
+<li>
+<p data-path-to-node="11,0,0">在 Vercel 後台點選Add New Project。</p>
+</li>
+<li>
+<p data-path-to-node="11,1,0">找到剛剛存放 Publii 檔案的 GitHub Repository，點選Import。</p>
+</li>
+<li>
+<p data-path-to-node="11,2,0">部署設定保持預設，點入Deploy。</p>
+</li>
+<li>
+<p data-path-to-node="11,3,0">稍候一下，Vercel會生成一個免費的 <code data-path-to-node="11,3,0" data-index-in-node="24">.vercel.app</code> 網址（後續可自訂），部落格就正式上線了！</p>
+</li>
+</ol>
+<p data-path-to-node="12"><strong data-path-to-node="12" data-index-in-node="0">Step 4 專心寫作：</strong>設定完成後，未來只需要打開電腦裡的 Publii 專心寫作。寫完後點選Preview確認之後，就可點選Sync your website，新文章會推送到 GitHub，Vercel 會在背景默默更新網站。通常不到一分鐘就會更新完畢，去喝一杯茶剛剛好。</p>
+<h3 data-path-to-node="13">結語</h3>
+<p data-path-to-node="14">這套工作流最大的優勢在於高效率、安全、便宜。因為是靜態網站，沒有資料庫漏洞可以鑽，安全性極高。家中電腦永遠有一份原始資料，不擔心大公司忽然關閉部落格服務，也是令人滿意的理由。其次，Vercel 提供的企業級CDN服務，確保無論在世界哪個角落開啟網站，速度都非常快。個人部落格流量不可能太高，幾乎免費。基於以上理由，這套工作流應該滿值得推廣的。</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>奇怪形狀的教室</title>
         <author>
             <name>Albert Pai</name>
         </author>
@@ -21,12 +93,16 @@
         <updated>2026-07-03T18:34:12+09:00</updated>
             <summary type="html">
                 <![CDATA[
-                    帶學生做分組海報活動的時候，傳統的固定座椅教室不好用，這種「変な形の教室」，通常沒有老師想使用，但是非常適合我的活動。活潑的班級可以連續喧囂90分鐘，安靜一點的班級也能專心進行活動，基本上各種特質的學生，不論是認真、愛玩、愛講話、木訥、關注細節、喜歡規劃，都能沉浸其中，玩得不亦樂乎。😊
+                    <p>最近喜歡上各種奇怪形狀的教室。</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>帶學生做分組海報活動的時候，傳統的固定座椅教室不好用，這種「変な形の教室」，通常沒有老師想使用，但是非常適合我的活動。活潑的班級可以連續喧囂90分鐘，安靜一點的班級也能專心進行活動，基本上各種特質的學生，不論是認真、愛玩、愛講話、木訥、關注細節、喜歡規劃，都能沉浸其中，玩得不亦樂乎。<span class="x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid" data-testid="emoji" data-emoji-size="20"><span class="xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m">😊</span></span><br><br></p>
+                <p>最近喜歡上各種奇怪形狀的教室。</p>
+
+<p>帶學生做分組海報活動的時候，需要學生可以分組聚在一起討論、創作的空間。傳統的固定座椅教室不好用，開始尋找其他類型的教室。後來發現「変な形の教室」，基本上沒有老師會想整個學期使用，但是非常適合我的活動。上面兩張圖的教室原本是面談室，下面兩張圖是會議室，稍微調整桌椅位置就很合用。</p>
+<p>進行這項活動時，活潑的班級可以像小學生一般連續喧囂90分鐘，安靜一點的班級也能專心進行活動，沒有人會睡著。基本上各種特質的學生，不論是認真、愛玩、愛講話、木訥、關注細節、喜歡規劃，都能沉浸其中，玩得不亦樂乎。<span class="x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid" data-testid="emoji" data-emoji-size="20"><span class="xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m">😊</span></span><br><br></p>
 <div class="gallery-wrapper"><div class="gallery" data-is-empty="false" data-translation="Add images" data-columns="2">
 <figure class="gallery__item"><a href="https://albert-myblog.vercel.app/media/posts/5/gallery/IMG_0877.HEIC_compressed.JPEG" data-size="1707x1280"><img loading="lazy" src="https://albert-myblog.vercel.app/media/posts/5/gallery/IMG_0877.HEIC_compressed-thumbnail.JPEG" alt="" width="768" height="576"></a></figure>
 <figure class="gallery__item"><a href="https://albert-myblog.vercel.app/media/posts/5/gallery/IMG_0878.HEIC_compressed.JPEG" data-size="1707x1280"><img loading="lazy" src="https://albert-myblog.vercel.app/media/posts/5/gallery/IMG_0878.HEIC_compressed-thumbnail.JPEG" alt="" width="768" height="576"></a></figure>
@@ -43,16 +119,20 @@
         </author>
         <link href="https://albert-myblog.vercel.app/tie-quan-jiao-yu-guan-hou.html"/>
         <id>https://albert-myblog.vercel.app/tie-quan-jiao-yu-guan-hou.html</id>
+            <category term="流行文化"/>
 
         <updated>2026-06-17T10:41:24+09:00</updated>
             <summary type="html">
                 <![CDATA[
-                    昨天稍微看了鐵拳教育，一方面覺得韓劇很善於創造潮流與話題，另一方面覺得這部戲劇內涵頗深。 潮流不是一天造成的。許多校園霸凌事件埋藏在歷史新聞和許多人記憶的深處，當導演把這個人們長久關注的議題改編成戲劇，加上若干想像的情節，故事就非常吸引人。我的求學過程比較幸運，沒有見到太多霸凌事件。但是太太在國中時期曾經見過，甚至她的學校三年內就有三起死亡事件，包含跳樓和自縊。 表這部戲劇充滿暴力美學，可連結到真實世界社會事件，但是更深一層的是各種倫理問題，例如：學校發生學生之間的霸凌，老師必須默不作聲，這時候老師是不是也成為受害者？校長與行政官員坐視不管，為的是大局還是私利？劇中成立教權局，紀念著死去的教師，頗有《基督山恩仇錄》的復仇意味，但是怎樣的復仇才算真正討回正義？霸凌者在火海中帶著淚水懺悔認錯，這種結局似乎帶有宗教意味，但是懺悔與消逝的生命放在天秤上時，是否具有相同分量？
+                    <p>昨天稍微看了鐵拳教育，一方面覺得韓劇很善於創造潮流與話題，另一方面覺得這部戲劇頗有令人深思的餘韻。</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>昨天稍微看了鐵拳教育，一方面覺得韓劇很善於創造潮流與話題，另一方面覺得這部戲劇內涵頗深。<br><br>潮流不是一天造成的。許多校園霸凌事件埋藏在歷史新聞和許多人記憶的深處，當導演把這個人們長久關注的議題改編成戲劇，加上若干想像的情節，故事就非常吸引人。我的求學過程比較幸運，沒有見到太多霸凌事件。但是太太在國中時期曾經見過，甚至她的學校三年內就有三起死亡事件，包含跳樓和自縊。<br><br>表這部戲劇充滿暴力美學，可連結到真實世界社會事件，但是更深一層的是各種倫理問題，例如：學校發生學生之間的霸凌，老師必須默不作聲，這時候老師是不是也成為受害者？校長與行政官員坐視不管，為的是大局還是私利？劇中成立教權局，紀念著死去的教師，頗有《基督山恩仇錄》的復仇意味，但是怎樣的復仇才算真正討回正義？霸凌者在火海中帶著淚水懺悔認錯，這種結局似乎帶有宗教意味，但是懺悔與消逝的生命放在天秤上時，是否具有相同分量？</p>
+                <p>昨天稍微看了鐵拳教育，一方面覺得韓劇很善於創造潮流與話題，另一方面覺得這部戲劇頗有令人深思的餘韻。</p>
+
+<p>潮流不是一天造成的。許多校園霸凌事件埋藏在歷史新聞和許多人記憶的深處，當導演把這個人們長久關注的議題改編成戲劇，加上若干想像的情節，故事就非常吸引人。我的求學過程比較幸運，沒有見到太多霸凌事件。但是太太在國中時期曾經見過，甚至她的學校三年內就有三起死亡事件，包含跳樓和自縊。<br><br>表這部戲劇充滿暴力美學，可連結到真實世界社會事件，但是更深一層的是各種倫理問題，例如：學校發生學生之間的霸凌，老師必須默不作聲，這時候老師是不是也成為受害者？校長與行政官員坐視不管，為的是大局還是私利？劇中成立教權局，紀念著死去的教師，頗有《基督山恩仇錄》的復仇意味，但是怎樣的復仇才算真正討回正義？霸凌者在火海中帶著淚水懺悔認錯，這種結局似乎帶有宗教意味，但是懺悔與消逝的生命放在天秤上時，是否具有相同分量？</p>
 <p><br><br><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/zh/e/ed/2026_South_Korean_TV_series_Teach_You_a_Lesson.png" alt="劇集海報" data-is-external-image="true"></p>
             ]]>
         </content>
