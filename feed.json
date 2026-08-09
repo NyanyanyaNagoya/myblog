@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://albert-myblog.vercel.app/he-zhi-wai-yu.html",
+            "url": "https://albert-myblog.vercel.app/he-zhi-wai-yu.html",
+            "title": "和製外語",
+            "summary": "和製英語： カメラ 相機 パソコン　個人電腦 和製義大利語： アピタ (Apice 頂尖 + Tasca 口袋) Apita購物中心 ピアゴ (Piacevole 快樂的 + Luogo 地方) Piago購物中心 和製法語： トレビアン (= très bien)非常好，very good",
+            "content_html": "<p>和製英語：<br>カメラ       相機<br>パソコン　個人電腦</p>\n<p>和製義大利語：<br>アピタ        (Apice 頂尖 + Tasca 口袋)  Apita購物中心<br>ピアゴ        (Piacevole 快樂的 +  Luogo 地方)   Piago購物中心<br> <br>和製法語：<br>トレビアン  (= <span class=\"見出G\">très bien)非常好，very good</span></p>",
+            "author": {
+                "name": "Albert Pai"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-08-09T14:45:13+09:00",
+            "date_modified": "2026-08-09T14:45:13+09:00"
+        },
+        {
             "id": "https://albert-myblog.vercel.app/jie-yu-shou-ji.html",
             "url": "https://albert-myblog.vercel.app/jie-yu-shou-ji.html",
             "title": "偈語收集",
